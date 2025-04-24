@@ -4,9 +4,9 @@ const customEventButton = document.querySelector(".custom-event");
 
 customEventButton.addEventListener("click", () => {
   console.log("custom event");
-  window.gtag("event", "custom_event", {
-    event_category: "engagement",
-    event_label: "button_click",
+  window.gtag("event", "download_request", {
+    event_category: "Download",
+    event_label: "Step Files Download",
     value: "2",
   });
 });
