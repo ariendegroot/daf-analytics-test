@@ -7,7 +7,7 @@ customEventButton.addEventListener("click", () => {
   window.gtag("event", "request_download", {
     event_category: "download_request",
     event_label: "2d files download",
-    value: "1",
+    number_of_files: 1,
   });
 });
 
@@ -17,7 +17,6 @@ customEventButtonStep.addEventListener("click", () => {
   window.gtag("event", "request_download", {
     event_category: "download_request",
     event_label: "Step files downloads",
-    value: "2",
+    number_of_files: 3,
   });
 });
-
